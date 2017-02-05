@@ -197,5 +197,5 @@ When daemons don't work, check `log/#{daemon name}.rb.output` or `log/peatio:amq
 
 **Visit [http://localhost:3000](http://localhost:3000)**
 
-    user: admin@peatio.dev
+    user: admin@btctw.com
     pass: Pass@word8
