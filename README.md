@@ -134,6 +134,6 @@ Twbtc is released under the terms of the MIT license. See [http://peatio.mit-lic
 
 **[This illustration copyright for Twbtc Team]**
 
-![logo](public/twbtc.png)
+![logo](public/btctw.png)
 
 
