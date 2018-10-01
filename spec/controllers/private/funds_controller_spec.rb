@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Private::FundsController do
 
-  context "Verified user with two factor" do
+  context "Verified user with two-factor" do
     let(:member) { create(:member, :activated, :verified, :app_two_factor_activated) }
     before { session[:member_id] = member.id }
 
@@ -13,7 +13,7 @@ describe Private::FundsController do
     it { expect(response).to be_ok }
   end
 
-  context "Verified user without two factor auth" do
+  context "Verified user without two-factor auth" do
     let(:member) { create(:member, :activated, :verified) }
     before { session[:member_id] = member.id }
 

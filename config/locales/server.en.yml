@@ -136,7 +136,7 @@ en:
         activated: Activated
         activated?: "Activated?"
         id_document_verified?: "ID Document Verified?"
-        two_factor_activated?: "Two Factor Activated?"
+        two_factor_activated?: "Two-Factor Activated?"
         phone_number: Phone Number
       two_factor/sms:
         country: Country
