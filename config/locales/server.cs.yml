@@ -496,7 +496,7 @@ cs:
         edit:
           bank: Přijaté jméno banky
           branch: Přijatá bankovní pobočka
-          hodler: Držení pro příjem
+          holder: Držení pro příjem
           account: Účet pro příjem
     fund_sources:
       index:

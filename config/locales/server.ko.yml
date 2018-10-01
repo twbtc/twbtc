@@ -489,7 +489,7 @@ ko:
         edit:
           bank: 은행
           branch: 은행
-          hodler: 계좌이름
+          holder: 계좌이름
           account: 계좌
     fund_sources:
       index:

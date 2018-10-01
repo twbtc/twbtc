@@ -489,7 +489,7 @@ zh-CN:
         edit:
           bank: 收款银行
           branch: 收款开户行
-          hodler: 收款账号
+          holder: 收款账号
           account: 收款账号
     fund_sources:
       index:

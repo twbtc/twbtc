@@ -514,7 +514,7 @@ en:
         edit:
           bank: Receive Bank Name
           branch: Receive Bank Branch
-          hodler: Receive Holder
+          holder: Receive Holder
           account: Receive Account
     history:
       transaction:

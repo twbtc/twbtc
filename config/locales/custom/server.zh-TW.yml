@@ -518,7 +518,7 @@ zh-TW:
         edit:
           bank: 收款銀行
           branch: 收款開戶行
-          hodler: 收款賬號
+          holder: 收款賬號
           account: 收款賬號
     fund_sources:
       index:
