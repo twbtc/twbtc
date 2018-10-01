@@ -618,7 +618,7 @@ zh-CN:
       ticket_create_succ: 服务单创建成功。
       ticket_create_fail: 服务单创建失败, 请稍候再试。
       comment_succ: 回复成功。
-      cooment_fail: 服务单创建失败, 请稍候再试。
+      comment_fail: 服务单创建失败, 请稍候再试。
       me: 我
       supporter: 客服
       close: 关闭服务单

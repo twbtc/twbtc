@@ -609,7 +609,7 @@ en:
       ticket_create_succ: Ticket created successfully.
       ticket_create_fail: Failed to create ticket, please try again later.
       comment_succ: Comment successful.
-      cooment_fail: Comment failed, please try again later
+      comment_fail: Comment failed, please try again later
       me: me
       supporter: Support
       close: Close Ticket

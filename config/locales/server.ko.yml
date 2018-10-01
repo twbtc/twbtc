@@ -618,7 +618,7 @@ ko:
       ticket_create_succ: Ticket를 성공적으로 만들어졌습니다.
       ticket_create_fail: Ticket등록실패 하였습니다, 다시 시도하세요.
       comment_succ: Comment successfully.
-      cooment_fail: Comment failed, please try again latter
+      comment_fail: Comment failed, please try again latter
       me: 나
       supporter: 고객센터
       close: Close Ticket

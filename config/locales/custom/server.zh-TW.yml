@@ -647,7 +647,7 @@ zh-TW:
       ticket_create_succ: 服務單創建成功。
       ticket_create_fail: 服務單創建失敗, 請稍候再試。
       comment_succ: 回復成功。
-      cooment_fail: 服務單創建失敗, 請稍候再試。
+      comment_fail: 服務單創建失敗, 請稍候再試。
       me: 我
       supporter: 客服
       close: 關閉服務單

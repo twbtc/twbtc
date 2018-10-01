@@ -625,7 +625,7 @@ cs:
       ticket_create_succ: Tiket úspěšně vytvořen.
       ticket_create_fail: Nelze vytvořit tiket, zkuste to prosím později.
       comment_succ: Komentář vytvořen.
-      cooment_fail: Chyba komentáře, prosím zkuste to znovu později.
+      comment_fail: Chyba komentáře, prosím zkuste to znovu později.
       me: já
       supporter: Podpora
       close: Ukončit tiket
