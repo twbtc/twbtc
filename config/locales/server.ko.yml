@@ -640,7 +640,7 @@ ko:
         create: Create New Token
         http: HTTP API Document
         websocket: Websocket API Document
-        more: 'For more information please check the API section on github:'
+        more: 'For more information please check the API section on Github:'
       oauth_tokens:
         panel_title: Authorizations
         title: Authorized Applications
