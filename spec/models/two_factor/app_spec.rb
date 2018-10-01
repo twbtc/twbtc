@@ -85,14 +85,14 @@ describe TwoFactor::App do
     describe "activated" do
       before { app.active! }
 
-      it { expect(mail.subject).to match('Google authenticator activated') }
+      it { expect(mail.subject).to match('Google Authenticator activated') }
     end
 
     describe "deactived" do
       let(:member) { create :member, :app_two_factor_activated }
       before { app.deactive! }
 
-      it { expect(mail.subject).to match('Google authenticator deactivated') }
+      it { expect(mail.subject).to match('Google Authenticator deactivated') }
     end
   end
 

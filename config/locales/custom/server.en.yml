@@ -1435,10 +1435,10 @@ en:
       subject: "[PEATIO] You have just signed in"
       just_signed_in: You have just signed in.
     google_auth_activated:
-      subject: "[PEATIO] Google authenticator activated"
+      subject: "[PEATIO] Google Authenticator activated"
       google_auth_activated: You have activated Google Authenticator successfully
     google_auth_deactivated:
-      subject: "[PEATIO] Google authenticator deactivated"
+      subject: "[PEATIO] Google Authenticator deactivated"
       google_auth_deactivated: You have deactivated google Authenticator successfully
     sms_auth_activated:
       subject: "[PEATIO] SMS authenticator activated"
