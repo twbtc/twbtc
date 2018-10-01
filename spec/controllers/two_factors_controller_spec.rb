@@ -14,7 +14,7 @@ describe TwoFactorsController do
       }
     end
 
-    context 'two factor auth not locked' do
+    context 'two-factor auth not locked' do
       let(:do_request) { get :show, {id: :sms} }
 
       before { do_request }

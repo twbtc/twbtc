@@ -489,7 +489,7 @@ ko:
         edit:
           bank: 은행
           branch: 은행
-          hodler: 계좌이름
+          holder: 계좌이름
           account: 계좌
     fund_sources:
       index:
@@ -618,7 +618,7 @@ ko:
       ticket_create_succ: Ticket를 성공적으로 만들어졌습니다.
       ticket_create_fail: Ticket등록실패 하였습니다, 다시 시도하세요.
       comment_succ: Comment successfully.
-      cooment_fail: Comment failed, please try again latter
+      comment_fail: Comment failed, please try again latter
       me: 나
       supporter: 고객센터
       close: Close Ticket
@@ -640,7 +640,7 @@ ko:
         create: Create New Token
         http: HTTP API Document
         websocket: Websocket API Document
-        more: 'For more information please check the API section on github:'
+        more: 'For more information please check the API section on Github:'
       oauth_tokens:
         panel_title: Authorizations
         title: Authorized Applications
@@ -1225,7 +1225,7 @@ ko:
     errors:
       messages:
         invalid_request: The request is missing a required parameter, includes an unsupported parameter value, or is otherwise malformed.
-        invalid_redirect_uri: The redirect uri included is not valid.
+        invalid_redirect_uri: The redirect URI included is not valid.
         unauthorized_client: The client is not authorized to perform this request using this method.
         access_denied: The resource owner or authorization server denied the request.
         invalid_scope: The requested scope is invalid, unknown, or malformed.

@@ -489,7 +489,7 @@ zh-CN:
         edit:
           bank: 收款银行
           branch: 收款开户行
-          hodler: 收款账号
+          holder: 收款账号
           account: 收款账号
     fund_sources:
       index:
@@ -618,7 +618,7 @@ zh-CN:
       ticket_create_succ: 服务单创建成功。
       ticket_create_fail: 服务单创建失败, 请稍候再试。
       comment_succ: 回复成功。
-      cooment_fail: 服务单创建失败, 请稍候再试。
+      comment_fail: 服务单创建失败, 请稍候再试。
       me: 我
       supporter: 客服
       close: 关闭服务单
@@ -1252,7 +1252,7 @@ zh-CN:
     errors:
       messages:
         invalid_request: The request is missing a required parameter, includes an unsupported parameter value, or is otherwise malformed.
-        invalid_redirect_uri: The redirect uri included is not valid.
+        invalid_redirect_uri: The redirect URI included is not valid.
         unauthorized_client: The client is not authorized to perform this request using this method.
         access_denied: The resource owner or authorization server denied the request.
         invalid_scope: The requested scope is invalid, unknown, or malformed.

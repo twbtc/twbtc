@@ -518,7 +518,7 @@ zh-TW:
         edit:
           bank: 收款銀行
           branch: 收款開戶行
-          hodler: 收款賬號
+          holder: 收款賬號
           account: 收款賬號
     fund_sources:
       index:
@@ -647,7 +647,7 @@ zh-TW:
       ticket_create_succ: 服務單創建成功。
       ticket_create_fail: 服務單創建失敗, 請稍候再試。
       comment_succ: 回復成功。
-      cooment_fail: 服務單創建失敗, 請稍候再試。
+      comment_fail: 服務單創建失敗, 請稍候再試。
       me: 我
       supporter: 客服
       close: 關閉服務單
@@ -1289,7 +1289,7 @@ zh-TW:
     errors:
       messages:
         invalid_request: The request is missing a required parameter, includes an unsupported parameter value, or is otherwise malformed.
-        invalid_redirect_uri: The redirect uri included is not valid.
+        invalid_redirect_uri: The redirect URI included is not valid.
         unauthorized_client: The client is not authorized to perform this request using this method.
         access_denied: The resource owner or authorization server denied the request.
         invalid_scope: The requested scope is invalid, unknown, or malformed.

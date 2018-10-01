@@ -80,7 +80,7 @@ en:
         detail: Detail
       account_version:
         id: ID
-        locked: Forzen
+        locked: Frozen
         amount: Amount
         balance: Balance
         reason: Reason
@@ -131,12 +131,12 @@ en:
         email: Email
         created_at: Register At
         sn: SN
-        id_document_number: Id Document Number
+        id_document_number: ID Document Number
         tag_list: Tags
         activated: Activated
         activated?: "Activated?"
-        id_document_verified?: "Id Document Verified?"
-        two_factor_activated?: "Tow Factor Activated?"
+        id_document_verified?: "ID Document Verified?"
+        two_factor_activated?: "Two-Factor Activated?"
         phone_number: Phone Number
       two_factor/sms:
         country: Country
@@ -205,7 +205,7 @@ en:
         account:
           attributes:
             balance:
-              less: Blance Less
+              less: Balance Less
         identity:
           attributes:
             email:
@@ -213,7 +213,7 @@ en:
             password:
               invalid: Invalid Password
             password_confirmation:
-              confirmation: Inconsistent with the new password you enter, please re-enter.
+              confirmation: Inconsistent with the new password you entered, please re-enter.
         token/reset_password:
           attributes:
             base:
@@ -224,7 +224,7 @@ en:
             password:
               invalid: Invalid Password
             member:
-              blank: Not exist!
+              blank: Does not exist!
         activation:
           attributes:
             base:
@@ -247,12 +247,12 @@ en:
           attributes:
             fund_uid:
               blank: Please enter your withdrawal address
-              invalid: Invalid withdrawals address, please review.
+              invalid: Invalid withdrawal address, please review.
               ismine: Please use a new address.
         two_factor:
           attributes:
             otp:
-              invalid: Wrong Password!Please re-enter.
+              invalid: Wrong Password! Please re-enter.
         application:
           attributes:
             redirect_uri:
@@ -265,7 +265,7 @@ en:
         less: balance less
         verify: verify error
         strength: is invalid password strength
-        password: Please enter a password at least 6 characters and it's better to
+        password: Please enter a password at least 6 characters long, and it's better to
           contain uppercase and lowercase letters and numbers.
         orders:
           price: limit price %{l} ~ %{h}
@@ -456,7 +456,7 @@ en:
     bank:
       key: Bank transfer
       title: Bank transfer
-      intro: Bank transfer deposits, recommend for large recharge
+      intro: Bank transfer deposits, recommended for large recharge
       latency: 10 minutes
       transfer: Manual
       go: Deposit
@@ -480,7 +480,7 @@ en:
     deposits:
       satoshis:
         gen_address:
-          require_transaction: it can't generate new address if it hasn't been used.
+          require_transaction: Can't generate new address if it hasn't been used.
       banks:
         destroy:
           notice: Revocation request is successful.
@@ -494,7 +494,7 @@ en:
         edit:
           bank: Receive Bank Name
           branch: Receive Bank Branch
-          hodler: Receive holder
+          holder: Receive Holder
           account: Receive Account
     history:
       transaction:
@@ -521,7 +521,7 @@ en:
         price: Price
         volume: Volume
         average_price: Avg. Price
-        fullfilled_volume: Fullfilled
+        fullfilled_volume: Fulfilled
         timestamp: Created At
       order:
         ask: Sell
@@ -553,21 +553,21 @@ en:
         index:
           done: Done
           cancel: Cancel
-          confirm: 'Are you sure cancel order #%{id}?'
+          confirm: 'Are you sure you want to cancel order #%{id}?'
         destroy:
-          'true': "#%{id} Cancel Order Successful"
-          'false': "#%{id} Cancel Order Reject"
+          'true': "Order #%{id} Canceled Successfully"
+          'false': "Order #%{id} Cancellation Unsuccessful"
     withdraws:
       update:
         request_accepted: Withdraw request accepted.
       destroy:
-        request_canceled: Withdraw request canceled
+        request_canceled: Withdraw request canceled.
       index:
         fee: Fee
         total: Total
         withdraw_history: Withdrawal History
       create:
-        two_factors_error: Two factor authentication failed.
+        two_factors_error: Two-factor authentication failed.
       banks:
         update:
           notice: Bank Transfer withdrawal application has been submitted, we will
@@ -607,15 +607,15 @@ en:
           can help you out as soon as possible. All discussions are private between
           you and the support staff.
       ticket_create_succ: Ticket created successfully.
-      ticket_create_fail: Failed to create ticket, please try again latter.
-      comment_succ: Comment successfully.
-      cooment_fail: Comment failed, please try again latter
+      ticket_create_fail: Failed to create ticket, please try again later.
+      comment_succ: Comment successful.
+      comment_fail: Comment failed, please try again later
       me: me
       supporter: Support
       close: Close Ticket
       close_succ: Ticket closed successfully
-      close_confirm: Are you sure to close this ticket?
-      title_content_both_blank: Title and content could be both be empty.
+      close_confirm: Are you sure you want to close this ticket?
+      title_content_both_blank: Title and content could both be empty.
       from: from
       view_closed_tickets: View closed tickets
       view_open_tickets: View open tickets
@@ -632,7 +632,7 @@ en:
         create: Create New Token
         http: HTTP API Document
         websocket: Websocket API Document
-        more: 'For more information please check the API section on github:'
+        more: 'For more information please check the API section on GitHub:'
       oauth_tokens:
         panel_title: Authorizations
         title: Authorized Applications
@@ -642,7 +642,7 @@ en:
         unbind: Revoke
         unbind-confirm: Are you sure?
         oauth_app_name: Name
-        oauth_app_expire: Expire At
+        oauth_app_expire: Expires At
         oauth_app_scope: Scopes
       unbind:
         success: Successfully revoked.
@@ -650,16 +650,16 @@ en:
       new:
         label_hint: Label helps you remember token usage, optional.
       create:
-        alert_two_factor: Two step authentication failed.
+        alert_two_factor: Two-step authentication failed.
         success: API token created successfully.
         failed: Failed to create API token. Please try again later or contact admin.
         desc: Please copy and paste keys below to a safe place and save. The secret key will never be displayed again.
       edit:
         access_key_hint: Created at %{created_at}
         label_hint: Label helps you remember token usage, optional.
-        ip_whitelist_hint: Seperate IP by commas, leave this field blank means all IP are allowed.
+        ip_whitelist_hint: Seperate IP by commas, leaving this field blank means all IPs are allowed.
       update:
-        alert_two_factor: Two step authentication failed.
+        alert_two_factor: Two-step authentication failed.
         success: Saved successfully.
         failed: Failed to save token. Please try again later or contact admin.
       destroy:
@@ -679,7 +679,7 @@ en:
         title: Proof of Liabilities
         intro: As an exchange, our liabilities refer to the sum of money (in both
           crypto currencies and fiat currencies) that our users trust us with. On
-          this page, we present you our liabilities. We also provide you a way to
+          this page, we present to you our liabilities. We also provide you a way to
           verify that your account balance is indeed part of our liabilities.
         how-to-verify: How to verify an exchange is solvent?
         how-to-verify-uri: https://peatio.com/documents/liability_proof
@@ -737,7 +737,7 @@ en:
         address: Address
         city: City
         country: Country
-        zipcode: Zipcode
+        zipcode: ZIP code
         id_document_type: Document Type
         id_document_number: Document Number
         id_document_file: Document Photo
@@ -753,7 +753,7 @@ en:
         help_panel: Help
         done: DONE
         cancel: CANCEL
-        cancel_confirm: Are your sure cancel order?
+        cancel_confirm: Are your sure you want to cancel order?
         confirm: CONFIRM
         ask_order: 'ASK ##sn#'
         bid_order: 'BID ##sn#'
@@ -881,20 +881,20 @@ en:
       failure: Invalid passcode. Please try again.
       index:
         safety_instruction: In order to protect your bitcoins and personal information, we strongly suggest that you use Two-Factor Authentication.
-        reset_password: Rest your Password
+        reset_password: Reset your Password
         reauthenticate: Authentication
-        activated: An  email has been sent to your mailbox, please check it for verification
-          as soon as possible. If you do not received it , please click "send it again"
+        activated: An email has been sent to your mailbox, please check it for verification
+          as soon as possible. If you have not received it, please click the "send it again"
           button
         auth-activated: Please confirm your email address first.
         auth-verified: Please verify your account first.
         email:
-          title: E-mail verification
-          description: Your e-mail has not been verified, click the "Send Mail" button
+          title: Email verification
+          description: Your email has not been verified, click the "Send Mail" button
             to complete the verification
-          description-activated: Your email adress has been verified successfully,
-            remember and protect this e-mail address, it is the single certificate
-            for your  account
+          description-activated: Your email adress has been verified successfully.
+            Remember and protect this email address, as it is the single certificate
+            for your account
           resend: Send it again
           activated: Verified
           go: Set
@@ -969,7 +969,7 @@ en:
         index:
           title: My Tokens
           intro: A list of all your API tokens. An empty 'IP Whitelist' means any
-            ip is allowed to use the token.
+            IP is allowed to use the token.
         new:
           title: Create API Token
         create:
@@ -984,8 +984,8 @@ en:
         panel: Real-name Authentication
         new:
           title: Submit real-name authentication information
-          intro: In line with the national laws , identity verification is required.
-            please verify your account to proceed.
+          intro: In line with national law, identity verification is required.
+            Please verify your account to proceed.
     panels:
       balance: Account
     verify:
@@ -993,20 +993,20 @@ en:
         panel: Two-Factor Authentication
         edit:
           title: Disable Two-Factor Authentication
-          intro: If you have a new phone, you can disable Two-Factor Authentication in the old phone, and enable Two-Factor Authentication  with the new one.
+          intro: If you have a new phone, you can disable Two-Factor Authentication in the old phone, and enable Two-Factor Authentication with the new one.
       sms_auths:
         panel: Verify Phone Number
     reset_passwords:
       panel: Password
       new:
         title: Reset Password
-        intro: Please enter your e-mail address which is verified by your  account,
-          enter verification code to submit,and login your mailbox, follow the prompts
+        intro: Please enter your email address which is verified by your account,
+          enter verification code to submit, and login to your mailbox. Follow the prompts
           to reset your password.
       create:
         title: Reset password
-        intro: Please enter your e-mail address which is verified by your  account,
-          enter verification code to submit,and login your mailbox, follow the prompts
+        intro: Please enter your email address which is verified by your account,
+          enter the verification code to submit, and login to your mailbox. Follow the prompts
           to reset your password.
       edit:
         title: Set Password
@@ -1024,20 +1024,20 @@ en:
       panel: Create Account
       new:
         title: Create My Account
-        intro: This will be your only ID on Peatio which is necessary for your exchange
-          , deposit and withdrawal . please fill it out carefully.
+        intro: This will be your only ID on Peatio which is necessary for your exchange,
+          deposit and withdrawal. Please fill it out carefully.
       edit:
         panel: My Account
         title: Reset Password
     two_factors:
-      panel: Two Factor Authenticator
+      panel: Two-Factor Authenticator
   simple_form:
     placeholders:
       deposit:
         bank:
           amount: Minimum amount 100
       session:
-        email: E-mail Address
+        email: Email Address
         password: Password
       identity:
         email: Example：xiaobai@example.com
@@ -1072,18 +1072,18 @@ en:
           sn: "<span class='text-danger'>Please copy the SN in your bank transfer's
             message, otherwise we can not process your order quickly.</span>"
       two_factor:
-        otp_secret: We recommend that you back up QR code image or ciphertext to avoid
-          that you accidental loss of the phone for the inconvenience.
+        otp_secret: We recommend that you back up the QR code image or ciphertext to avoid
+          the accidental loss of the phone for the inconvenience.
         otp: Your validator will re-generate a new password every thirty seconds,
           please input timely.
       identity:
-        password: Set a password which has at least 6 characters and it's better to
+        password: Set a password which has at least 6 characters. It's better to
           contain uppercase and lowercase letters and numbers.
       reset_password:
-        password: Set a password which has at least 6 characters and it's better to
+        password: Set a password which has at least 6 characters. It's better to
           contain uppercase and lowercase letters and numbers.
       id_document:
-        name: Please fill in the name which is consistent with your Credentials.
+        name: Please fill in the name which is consistent with your credentials.
       withdraw:
         bank:
           member_name: "<span class='text-danger'>Withdraw bank account name must
@@ -1117,11 +1117,11 @@ en:
         address: Address
         category: Category
       session:
-        email: Sign In E-mail
+        email: Sign In Email
         password: Sign In Password
         captcha: Captcha
       identity:
-        email: Sign In E-mail
+        email: Sign In Email
         old_password: Original password
         password: New Password
         password_confirmation: Confirm new password
@@ -1150,7 +1150,7 @@ en:
           available: All Pending Requests
         show:
           alert: Recharge cannot be located.
-          notice: The recharge have been successful.
+          notice: The recharge was successful.
           deposit: Deposit Request
           accept: Accept
           target_deposit: Wire Transfer
@@ -1225,8 +1225,8 @@ en:
     withdraws:
       banks:
         index:
-          one: Pending withdrawal Orders
-          all: Twenty-four hours Orders
+          one: Pending withdrawal orders
+          all: Twenty-four hour orders
           empty: No Data
         show:
           process: Process
@@ -1271,7 +1271,7 @@ en:
       messages:
         invalid_request: The request is missing a required parameter, includes an
           unsupported parameter value, or is otherwise malformed.
-        invalid_redirect_uri: The redirect uri included is not valid.
+        invalid_redirect_uri: The redirect URI included is not valid.
         unauthorized_client: The client is not authorized to perform this request
           using this method.
         access_denied: The resource owner or authorization server denied the request.
@@ -1283,7 +1283,7 @@ en:
         credential_flow_not_configured: Resource Owner Password Credentials flow failed
           due to Doorkeeper.configure.resource_owner_from_credentials being unconfigured.
         resource_owner_authenticator_not_configured: Resource Owner find failed due
-          to Doorkeeper.configure.resource_owner_authenticator being unconfiged.
+          to Doorkeeper.configure.resource_owner_authenticator being unconfigured.
         unsupported_response_type: The authorization server does not support this
           response type.
         invalid_client: Client authentication failed due to unknown client, no client
@@ -1398,14 +1398,14 @@ en:
     dear_user: Dear user,
     signature: Thanks,<br/>The Peatio Team
     please_contact: If it's not you, please <a href='mailto:%{contact_mail}'>contact us</a> ASAP.
-    footer: This is an automatically generated email, please do not reply, if you have any question, please <a href="mailto:%{contact_mail}">contact us</a>.
+    footer: This is an automatically generated email, please do not reply. If you have any question, please <a href="mailto:%{contact_mail}">contact us</a>.
   comment_mailer:
     admin_notification:
-      subject: "[PEATIO] User reply a ticket"
-      notification_content: User %{email} reply a ticket, please follow the link below to see the detail
+      subject: "[PEATIO] User replied to a ticket"
+      notification_content: User %{email} replied a ticket, please follow the link below to see the details
     user_notification:
       subject: "[PEATIO] Your ticket got a new reply"
-      notification_content: 'Your ticket got a new reply, please follow the link below to see the detail:'
+      notification_content: 'Your ticket got a new reply, please follow the link below to see the details:'
   deposit_mailer:
     accepted:
       subject: "[Peatio] Your deposit has been credited into your account"
@@ -1415,11 +1415,11 @@ en:
       subject: "[PEATIO] You have just signed in"
       just_signed_in: You have just signed in.
     google_auth_activated:
-      subject: "[PEATIO] Google authenticator activated"
-      google_auth_activated: You have activated google authenticator successfully
+      subject: "[PEATIO] Google Authenticator activated"
+      google_auth_activated: You have activated Google Authenticator successfully
     google_auth_deactivated:
-      subject: "[PEATIO] Google authenticator deactivated"
-      google_auth_deactivated: You have deactivated google authenticator successfully
+      subject: "[PEATIO] Google Authenticator deactivated"
+      google_auth_deactivated: You have deactivated google Authenticator successfully
     sms_auth_activated:
       subject: "[PEATIO] SMS authenticator activated"
       sms_auth_activated: You have activated SMS authenticator successfully
@@ -1444,14 +1444,14 @@ en:
   ticket_mailer:
     admin_notification:
       subject: "[PEATIO] User created a new ticket"
-      admin_notification_content: User %{email} created a new ticket, please follow the link below to see the detail
+      admin_notification_content: User %{email} created a new ticket, please follow the link below to see the details
     author_notification:
-      subject: "[PEATIO] Thank you for submit ticket"
-      thanks_for_submit_ticket: Thank you for submit ticket to us, we will get back to you as soon as possible.
+      subject: "[PEATIO] Thank you for submitting a ticket"
+      thanks_for_submit_ticket: Thank you for submitting a ticket to us, we will get back to you as soon as possible.
   token_mailer:
     activation:
       subject: "[Peatio] Account Activation"
-      click_to_verify: 'Thank you for signing up on Peatio, please follow this link to verify your Email:'
+      click_to_verify: 'Thank you for signing up on Peatio, please follow this link to verify your email:'
       unable_to_click: Copy and open the link in your browser if you are unable to click and visit it.
       link_expire: The link expires in 30 minutes.
     reset_password:
@@ -1594,7 +1594,7 @@ en:
   'yes': 'Yes'
   'no': 'No'
   simple_captcha:
-    label: Refresh page to get new captcha.
+    label: Refresh the page to get a new captcha.
     placeholder: type characters in image
   helpers:
     action:
@@ -1637,7 +1637,7 @@ en:
         create: Submit
   activations:
     new:
-      notice: An email has been sent to your mailbox, please check it for verification as soon as possible. If you do not received it , please click "send it again" button.
+      notice: An email has been sent to your mailbox, please check it for verification as soon as possible. If you have not received it, please click "send it again" button.
       verified: Your email adress has been verified successfully.
       login_required: login required!
       tip: Activation link was sent to %{email}
@@ -1671,7 +1671,7 @@ en:
     new:
       title: SIGN UP
       signin: Sign In
-      password: Please enter a password at least 6 characters and it's better to contain
+      password: Please enter a password at least 6 characters. It's better to contain
         uppercase and lowercase letters and numbers.
     update:
       auth-error: The original password you entered is incorrect, please re-enter.
@@ -1706,9 +1706,9 @@ en:
       name: Please fill out the application.
   reset_passwords:
     create:
-      success: E-mail to reset your password with a introduction has been sent to your mailbox. Failure to receive e-mail , go to "junk mail " firstly,or send the request again.
+      success: Email to reset your password with an introduction has been sent to your mailbox. If you did not recieve the email, first check your "junk mail," or send the request again.
     edit:
-      password: Please enter a password at least 6 characters and it's better to contain uppercase and lowercase letters and numbers.
+      password: Please enter a password at least 6 characters. It's better to contain uppercase and lowercase letters and numbers.
       invalid: Invalid request
       submit: Reset Login Password
       alert: Invalid reset password link.
@@ -1719,17 +1719,17 @@ en:
     new:
       reset_password: Forgot Password?
     new_with_two_factor_auth:
-      title: 2 Step Verification
-      reset_two_factor: Lost 2-step-verification device
+      title: 2-Step Verification
+      reset_two_factor: Lost 2-step verification device
     create_with_two_factor_auth:
       session_expired: Session expired. Try again.
     create:
-      error: You account has been disabled, contact admin if you have any problem.
+      error: You account has been disabled, contact admin if you have any problems.
     failure:
       account_locked: Too many failed login attempts. To ensure the safety of your
-        account, we have locked your account. To unlock, reset your password by clicking
+        account, we have locked it. To unlock, reset your password by clicking
         on "Forgot Password".
-      error: Wrong customer ID or password,please try again.
+      error: Wrong customer ID or password, please try again.
   shared:
     admin:
       member:
@@ -1738,13 +1738,13 @@ en:
         deactive_app_two_factor: Google TFA
         inactive: Inactive
         deactive: Deactive
-        are_you_sure: Are you sure deactive two factor authentication?
+        are_you_sure: Are you sure deactive two-factor authentication?
       account:
         account_info: Account Info
         payment_address: Deposit Address
     alert:
-      modern: In order not to affect trading experience, please use a more popular
-        browser transaction, we recommend you <a target='_blank' href='https://www.google.com/#q=google+chrome'>Google
+      modern: In order to not affect trading experience, please use a more popular
+        browser transaction, we recommend <a target='_blank' href='https://www.google.com/#q=google+chrome'>Google
         Chrome</a>。
       pusher_unavailable: The network connection is temporarily unavailable... <a
         href='#' class='alert-link'>Please refresh</a>.
@@ -1766,9 +1766,9 @@ en:
     index:
       verify: Verify
     update:
-      alert: Two factor verification code error, please re-enter.
+      alert: Two-factor verification code error, please re-enter.
     auth:
-      please_active_two_factor: Please set mobile number or google authenticator first.
+      please_active_two_factor: Please set mobile number or Google Authenticator first.
       submit: Submit
       otp_placeholder: 6-digit password
       google_app: Google Authenticator
@@ -1778,26 +1778,25 @@ en:
       hints:
         app: Google Authenticator will re-generate a new password every thirty seconds,
           please input timely.
-        sms: We'll send a text message to you phone with verify code.
+        sms: We'll send a text message to your phone with verification code.
   verify:
     google_auths:
       edit:
         submit: Disable
-        warning: 'Tip: If you have lost your Two-Factor Authentication by some reason
-          and can''t login your Peatio account, please contact our online customer
+        warning: 'Tip: If you have lost your Two-Factor Authentication for some reason
+          and cannot login your Peatio account, please contact our online customer
           service.'
       show:
         step-1: Step 1
         step-2: Step 2
         step-3: Step 3
         or: OR
-        download-app: Install Google Authenticator app on your smart phone and open
-          it.
+        download-app: Install and open the Google Authenticator app on your smart phone.
         guide-link: "<a href='https://support.google.com/accounts/answer/1066447'
           target='_blank'>Installation Instructions</a>。"
         scan-qr-code: Scan the following QR code with Google Authenticator APP，or
           add cipher text to the validator manually.
-        enter-passcode: Fill in the dynamic password  displayed by your phone to activate Two-Factor Authentication.
+        enter-passcode: Fill in the dynamic password displayed by your phone to activate Two-Factor Authentication.
         submit: Enable
         ios: Iphone iOS
         android: Android
@@ -1807,17 +1806,17 @@ en:
           not_activated_yet: The Google Authenticator hasn't been set yet.
       update:
         alert: Password for authentication is incorrect, please re-enter.
-        notice: Two-Factor Authentication has been successfully Enabled.
+        notice: Two-Factor Authentication has been successfully enabled.
         sms_two_factor_error: SMS Verification code is incorrect, please re-enter.
       destroy:
         alert: Password for authentication is incorrect, please re-enter.
-        notice: Two-Factor Authentication has been successfully Disabled.
+        notice: Two-Factor Authentication has been successfully disabled.
     sms_auths:
       show:
         title: Verify Phone Number
-        description: Providing a phone number will make your account more secure. you
+        description: Providing a phone number will make your account more secure. You
           can quickly reset your password and your account operations will be notified.
-        warning: it will not be able to retrieve your account's password if not set
+        warning: You will not be able to retrieve your account's password if you do not set
           the phone number.
         phone_number: Phone number
         send_code: Send Code
@@ -1834,7 +1833,7 @@ en:
     bank:
       key: Bank Transfer
       title: Bank Transfer
-      intro: Bank transfer deposits, Recommend for large recharge
+      intro: Bank transfer deposits, Recommended for large recharges
       latency: 30 minutes
       transfer: Manual
       go: Withdraw
@@ -1857,7 +1856,7 @@ en:
       processing: Processing
       done: Done
       almost_done: Almost Done
-      canceled: Canceld
+      canceled: Canceled
       failed: Failed
   withdraws/satoshi:
     aasm_state:
@@ -1866,7 +1865,7 @@ en:
       rejected: Rejected
       accepted: Accepted
       suspect: Suspect
-      processing: processing
+      processing: Processing
       done: Done
       almost_done: Almost Done
       canceled: Cancelled

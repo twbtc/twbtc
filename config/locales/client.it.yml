@@ -113,7 +113,7 @@ it:
         canceled: Cancellato
         failed: Non riuscito
     auth:
-      please_active_two_factor: Per favore in primo luogo inserisci un numero o il google authenticator.
+      please_active_two_factor: Per favore in primo luogo inserisci un numero o il Google Authenticator.
       submit: Immetti
       otp_placeholder: Password a 6 cifre
       google_app: Google Authenticator

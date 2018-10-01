@@ -90,7 +90,7 @@ en:
         new_address: New Address
         confirm_gen_new_address: You sure want to generate a new deposit address?
         open-wallet: Please use your common wallet services, local wallet, mobile terminal or online wallet, select a payment and send.
-        detail: Please paste the address blow in your wallet, and fill in the amount you want to deposit, then confirm and send.
+        detail: Please paste the address below in your wallet, and fill in the amount you want to deposit, then confirm and send.
         scan-qr: Scanning QR code to Pay for In the mobile terminal wallet.
         after_deposit: Once you complete sending, you can check the status of your new deposit below.
         generate-new: Generate new address
@@ -168,11 +168,11 @@ en:
         coin_done: Coin Done
         done: Done
         almost_done: Almost Done
-        canceled: Canceld
+        canceled: Canceled
         failed: Failed
 
     auth:
-      please_active_two_factor: Please set mobile number or google authenticator first.
+      please_active_two_factor: Please set mobile number or Google Authenticator first.
       submit: Submit
       otp_placeholder: 6-digit password
       google_app: Google Authenticator
@@ -181,11 +181,10 @@ en:
       send_code_alt: Resend in COUNT seconds
       hints:
         app: Google Authenticator will re-generate a new password every thirty seconds, please input timely.
-        sms: We'll send a text message to you phone with verify code.
+        sms: We'll send a text message to your phone with verify code.
 
     markets:
       market_list:
         all: All Market
         ntd: NTD Market
         btc: BTC Market
-
